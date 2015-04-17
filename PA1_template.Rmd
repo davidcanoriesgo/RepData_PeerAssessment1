@@ -152,7 +152,6 @@ dayTypeIntervalSteps <- aggregate(
 ## plotting as 2 rows schema
 library("lattice")
 
-head(dayTypeIntervalSteps)
 
 xyplot(
     type="l",

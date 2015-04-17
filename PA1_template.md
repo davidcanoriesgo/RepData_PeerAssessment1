@@ -209,20 +209,7 @@ dayTypeIntervalSteps <- aggregate(
 ## plotting as 2 rows schema
 library("lattice")
 
-head(dayTypeIntervalSteps)
-```
 
-```
-##   DayType Interval     Steps
-## 1 weekday        0 2.2888889
-## 2 weekend        0 0.2500000
-## 3 weekday        5 0.5333333
-## 4 weekend        5 0.1250000
-## 5 weekday       10 0.2888889
-## 6 weekend       10 0.1250000
-```
-
-```r
 xyplot(
     type="l",
     data=dayTypeIntervalSteps,
